@@ -1,12 +1,14 @@
 import React from 'react'
 import dot from '../images/dot.png'
+import me from '../images/me.png'
+
 
 function Heading() {
   return (
     <div className=''>
         <div className="text-4xl font-semibold font-satoshi flex items-center gap-2">
             Hi, I'm
-            <img className='h-20 w-20 rounded-2xl border-2 border-white shadow-xl' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPMz8sVYhhfkXbCxEkES1u9Cm_YWW7fEg_Lw&s" alt="" />
+            <img className='h-20 w-20 rounded-2xl border-2 border-white shadow-xl' src={me} alt="" />
             Rishav Talukdar!
         </div>
         <p className="text-4xl font-semibold text-[#cbc4c4] mb-5">I'm a <span className='text-black'>React Developer</span> at</p>

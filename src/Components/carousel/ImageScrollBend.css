@@ -9,8 +9,9 @@
 
 .scroll-image {
   flex: 0 0 auto;
-  width: 120px; /* Adjust as needed */
-  height: auto;
+  /* width: 200px; */
+  /* height: auto; */
+  height: 130px;
   margin-right: 10px;
   border-radius: 10px; /* Optional */
   transform-origin: center center;
