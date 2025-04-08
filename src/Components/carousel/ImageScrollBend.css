@@ -1,0 +1,22 @@
+.image-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+  perspective: 500px;
+}
+
+.scroll-image {
+  flex: 0 0 auto;
+  width: 120px; /* Adjust as needed */
+  height: auto;
+  margin-right: 10px;
+  border-radius: 10px; /* Optional */
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-image:last-child {
+  margin-right: 0;
+}
